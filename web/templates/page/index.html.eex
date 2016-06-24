@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
+  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+</div>
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><span class="glyphicon glyphicon-home"></span></div>
+      <div role="tabpanel" class="tab-pane" id="profile"><span class="glyphicon glyphicon-th-list"></span></div>
+      <div role="tabpanel" class="tab-pane" id="messages"><span class="glyphicon glyphicon-file"></span></div>
+  </div>
+
+</div>
